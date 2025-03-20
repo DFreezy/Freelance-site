@@ -8,12 +8,12 @@ export default function Navbar(){
         </div>
         <div>
             <ul className='flex flex-row flex-wrap justify-between'>
-                <li className='mx-10 my-6'><a>Start here</a></li>
-                <li className='mx-10 my-6'><a>Blog</a></li>
-                <li className='mx-10 my-6'><a>YouTube</a></li>
-                <li className='mx-10 my-6'><a>Books</a></li>
-                <li className='mx-10 my-6'><a>Recommended</a></li>
-                <li className='mx-10 my-6'><a>Contact</a></li>
+                <li className='mx-10 my-6 z-10'><a>Start here</a></li>
+                <li className='mx-10 my-6 z-10'><a>Blog</a></li>
+                <li className='mx-10 my-6 z-10'><a>YouTube</a></li>
+                <li className='mx-10 my-6 z-10'><a>Books</a></li>
+                <li className='mx-10 my-6 z-10'><a>Recommended</a></li>
+                <li className='mx-10 my-6 z-10'><a>Contact</a></li>
             </ul>
         </div>
         </div>
