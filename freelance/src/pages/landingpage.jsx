@@ -13,8 +13,8 @@ const [isMobileOpen, setIsMobileOpen] = useState(false)
       <div className="relative z-10 flex flex-col items-center justify-center h-screen text-white">
         {/* Title Section */}
         <div className="text-center mb-10">
-          <h1 className="text-6xl md:text-8xl">Here we do</h1>
-          <h1 className="text-6xl md:text-8xl font-bold">two things</h1>
+          <h1 className="text-6xl md:text-8xl font-serif">Here we do</h1>
+          <h1 className="text-6xl md:text-8xl font-bold font-serif">two things</h1>
         </div>
 
         {/* Service Section */}
