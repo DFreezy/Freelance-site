@@ -1,14 +1,19 @@
 import './App.css'
 import Navbar from './components/navbar'
 import Landingpage from './pages/landingpage'
+import Projects from './pages/projects'
+import { BrowserRouter, Routes, Route } from 'react-router'
 
 function App() {
   return (
     <>
-      <div className='bg-red-500'>
-        <Navbar />
-        <Landingpage />
-      </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Landingpage />}/>
+        <Route path="/projects" element={<Projects />}/>
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }

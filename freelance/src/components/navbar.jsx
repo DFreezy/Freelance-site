@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Navbar(){
     return(
@@ -8,12 +9,8 @@ export default function Navbar(){
         </div>
         <div>
             <ul className='flex flex-row flex-wrap justify-between'>
-                <li className='mx-10 my-6 z-10'><a>Start here</a></li>
-                <li className='mx-10 my-6 z-10'><a>Blog</a></li>
-                <li className='mx-10 my-6 z-10'><a>YouTube</a></li>
-                <li className='mx-10 my-6 z-10'><a>Books</a></li>
-                <li className='mx-10 my-6 z-10'><a>Recommended</a></li>
-                <li className='mx-10 my-6 z-10'><a>Contact</a></li>
+                <Link to="/"> <li className='mx-10 my-6 z-10'>Start here</li> </Link>
+              <Link to="/projects"> <li className='mx-10 my-6 z-10'>Projects</li> </Link>
             </ul>
         </div>
         </div>
