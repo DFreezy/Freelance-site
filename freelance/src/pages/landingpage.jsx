@@ -20,12 +20,14 @@ export default function Landingpage() {
           <div className="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-lg">
             <img alt="laptop" src="/images.jpeg" className="w-24 h-24 rounded-full mb-3" />
             <h1 className="text-xl font-semibold">Web Development</h1>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
           </div>
 
           {/* Mobile Development */}
           <div className="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-lg">
             <img alt="cellphone" src="/phone_14_01.jpg" className="w-24 h-24 rounded-full mb-3" />
             <h1 className="text-xl font-semibold">Mobile Development</h1>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
           </div>
         </div>
       </div>
