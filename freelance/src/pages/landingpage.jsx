@@ -23,7 +23,7 @@ const [isMobileOpen, setIsMobileOpen] = useState(false)
           <div className="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-lg">
             <img alt="laptop" src="/images.jpeg" className="w-24 h-24 rounded-full mb-3" />
             <h1 className="text-xl font-semibold">Web Development</h1>
-            <button onClick={() => setIsAppOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
+            <button onClick={() => setIsAppOpen(true)} className="bg-purple-800 hover:bg-purple-900 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
           {/* Modal Overlay */}
       {isAppOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -55,7 +55,7 @@ const [isMobileOpen, setIsMobileOpen] = useState(false)
           <div className="flex flex-col items-center bg-gray-800 p-6 rounded-2xl shadow-lg">
             <img alt="cellphone" src="/phone_14_01.jpg" className="w-24 h-24 rounded-full mb-3" />
             <h1 className="text-xl font-semibold">Mobile Development</h1>
-            <button onClick={() => setIsMobileOpen(true)} className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
+            <button onClick={() => setIsMobileOpen(true)} className="bg-purple-800 hover:bg-purple-900 text-white font-bold py-2 px-6 rounded-lg shadow-md transition duration-300">Get started</button>
                 {/* Modal Overlay */}
       {isMobileOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
